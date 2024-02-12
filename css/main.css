@@ -10,7 +10,7 @@ body {
   text-align: center;
   background-color: #fdfffc;
   color: #011627;
-  font-family: 'Open Sans', sans-serif; /* Ne pas oublier de terminer avec une police générique */
+  font-family: 'Inter', sans-serif; /* Ne pas oublier de terminer avec une police générique */
   font-size: 1rem; /* = 1 x 16px */
   font-weight: 400;
   line-height: 1.4;
