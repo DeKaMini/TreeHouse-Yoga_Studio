@@ -1,0 +1,94 @@
+/************************************
+        Règles générales
+************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #2E3B41;
+  font-family: 'Inter', sans-serif; /* Ne pas oublier de terminer avec une police générique */
+  font-size: 1rem; /* = 1 x 16px */
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+img {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1em;
+  font-weight: bold;
+}
+
+.background {
+  background-image: url("img/waves-desktop.webp"),
+                    url("img/lotus-position.svg");
+
+}
+
+/***************************************
+           Menu de navigation
+****************************************/
+
+header nav {
+  text-align: end;
+  padding: 10px 0;
+  margin: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+button {
+  background-color: #F88CAC;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+/************************************
+            Police
+************************************/
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/inter-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
