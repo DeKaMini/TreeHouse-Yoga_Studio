@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("lotus-position.svg");
+  background-image: url("img/lotus-position.svg");
   text-align: center;
   color: #2E3B41;
   font-family: 'Inter', sans-serif; /* Ne pas oublier de terminer avec une police générique */
