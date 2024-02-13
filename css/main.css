@@ -16,6 +16,10 @@ body {
   line-height: 1.4;
 }
 
+img {
+  text-align: left;
+}
+
 h1,
 h2,
 h3,
