@@ -7,8 +7,12 @@
 }
 
 .imagedefond {
-  background-image: url('img/waves-desktop.webp');
-  background-color: grey;
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les marges intérieures par défaut */
+  background-image: url('/Users/mohha/WebstormProjects/TreeHouse-Yoga_Studio/img/waves-desktop.webp'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin vers votre image */
+  background-size: cover; /* Redimensionne l'image pour qu'elle couvre tout le fond */
+  background-position: center; /* Centre l'image sur le fond */
+  background-repeat: no-repeat;
 }
 
 body {
