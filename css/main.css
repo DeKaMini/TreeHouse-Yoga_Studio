@@ -11,8 +11,8 @@
 }
 
 body div {
-  margin: -2em; /* Supprime les marges par défaut */
-  padding: -2em; /* Supprime les marges intérieures par défaut */
+  margin: 5em; /* Supprime les marges par défaut */
+  padding: 5em; /* Supprime les marges intérieures par défaut */
   background-image: url('https://github.com/DeKaMini/TreeHouse-Yoga_Studio/blob/77317b67192e0a42df2aae9be2d302ce94e7defe/img/waves-desktop.webp'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin vers votre image */
   background-size: contain; /* Redimensionne l'image pour qu'elle couvre tout le fond */
   background-position: left; /* Centre l'image sur le fond */
