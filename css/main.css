@@ -36,7 +36,9 @@ h1 {
   font-weight: bold;
 }
 
-svg {
+.background {
+  background-image: url("img/waves-desktop.webp"),
+                    url("img/lotus-position.svg");
 
 }
 
