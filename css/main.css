@@ -7,9 +7,8 @@
 }
 
 body {
-  background-image: url("img/waves-desktop.webp");
+  background-image: url("lotus-position.svg");
   text-align: center;
-  background-color: #FFFFFF;
   color: #2E3B41;
   font-family: 'Inter', sans-serif; /* Ne pas oublier de terminer avec une police générique */
   font-size: 1rem; /* = 1 x 16px */
